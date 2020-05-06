@@ -1,0 +1,8 @@
+0:[device_type=pc||or||browser=7] yes=2,no=1
+	2:[os_family=5] yes=6,no=5
+		6:leaf=0.000881777	
+		5:leaf=0.000881666	
+	1:[browser=8] yes=4,no=3
+		4:leaf=0.000881108
+		3:leaf=0.000889999
+			
