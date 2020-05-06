@@ -1,0 +1,20 @@
+language=2 & browser=8 & os_family=5 & browser=7 : 0.000559453
+language=2 & browser=8 & os_family=5 & device_type=pc : 0.000559453
+language != 2 & browser=8 & os_family=5 & browser=7 : 0.000594593
+language != 2 & browser=8 & os_family=5 & device_type=pc : 0.000594593
+size=300x600 & browser != 8 & os_family=5 & browser=7 : 0.000597397
+size=300x600 & browser != 8 & os_family=5 & device_type=pc : 0.000597397
+size != 300x600 & browser != 8 & os_family=5 & browser=7 : 0.00063461
+size != 300x600 & browser != 8 & os_family=5 & device_type=pc : 0.00063461
+browser=5 & os_family != 5 & browser=7 : 0.000625534
+browser=5 & os_family != 5 & device_type=pc : 0.000625534
+browser=8 & os_family != 5 & browser=7 : 0.000625534
+browser=8 & os_family != 5 & device_type=pc : 0.000625534
+position=2 & browser != 8 & browser != 5 & os_family != 5 & browser=7 : 0.00066727
+position=2 & browser != 8 & browser != 5 & os_family != 5 & device_type=pc : 0.00066727
+position != 2 & browser != 8 & browser != 5 & os_family != 5 & browser=7 : 0.000708484
+position != 2 & browser != 8 & browser != 5 & os_family != 5 & device_type=pc : 0.000708484
+browser=8 & device_type != pc & browser != 7 : 0.000881108
+os_family=5 & browser != 8 & device_type != pc & browser != 7 : 0.000842268
+region=FR:A5 & os_family != 5 & browser != 8 & device_type != pc & browser != 7 : 0.000939982
+region != FR:A5 & os_family != 5 & browser != 8 & device_type != pc & browser != 7 : 0.000999001
